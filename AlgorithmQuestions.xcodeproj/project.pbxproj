@@ -12,6 +12,9 @@
 		A29DB277214F75B300C05950 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DB276214F75B300C05950 /* TwoSum.swift */; };
 		A29DB27A214F7C2600C05950 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DB279214F7C2600C05950 /* TwoSumTests.swift */; };
 		A29DB27F214F873C00C05950 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DB276214F75B300C05950 /* TwoSum.swift */; };
+		A2C6C67C215883FF0061C2FD /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6C67B215883FF0061C2FD /* LongestSubstringWithoutRepeatingCharacters.swift */; };
+		A2C6C67D215884010061C2FD /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6C67B215883FF0061C2FD /* LongestSubstringWithoutRepeatingCharacters.swift */; };
+		A2C6C67F215884370061C2FD /* LongestSubstringWithoutRepeatingCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6C67E215884370061C2FD /* LongestSubstringWithoutRepeatingCharactersTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 		A29DB273214F750F00C05950 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A29DB276214F75B300C05950 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		A29DB279214F7C2600C05950 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
+		A2C6C67B215883FF0061C2FD /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
+		A2C6C67E215884370061C2FD /* LongestSubstringWithoutRepeatingCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharactersTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,7 @@
 		A29DB25E214F743B00C05950 /* AlgorithmQuestions */ = {
 			isa = PBXGroup;
 			children = (
+				A2C6C679215883CC0061C2FD /* String */,
 				A29DB275214F75A700C05950 /* Array */,
 				A29DB273214F750F00C05950 /* main.swift */,
 			);
@@ -104,8 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				A29DB2842150BA5200C05950 /* TwoSum */,
-				A29DB276214F75B300C05950 /* TwoSum.swift */,
-				A29DB279214F7C2600C05950 /* TwoSumTests.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -113,8 +117,27 @@
 		A29DB2842150BA5200C05950 /* TwoSum */ = {
 			isa = PBXGroup;
 			children = (
+				A29DB276214F75B300C05950 /* TwoSum.swift */,
+				A29DB279214F7C2600C05950 /* TwoSumTests.swift */,
 			);
 			path = TwoSum;
+			sourceTree = "<group>";
+		};
+		A2C6C679215883CC0061C2FD /* String */ = {
+			isa = PBXGroup;
+			children = (
+				A2C6C67A215883D90061C2FD /* LongestSubstringWithoutRepeatingCharacters */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		A2C6C67A215883D90061C2FD /* LongestSubstringWithoutRepeatingCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				A2C6C67B215883FF0061C2FD /* LongestSubstringWithoutRepeatingCharacters.swift */,
+				A2C6C67E215884370061C2FD /* LongestSubstringWithoutRepeatingCharactersTests.swift */,
+			);
+			path = LongestSubstringWithoutRepeatingCharacters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29DB277214F75B300C05950 /* TwoSum.swift in Sources */,
+				A2C6C67C215883FF0061C2FD /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				A29DB274214F750F00C05950 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,8 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29DB27A214F7C2600C05950 /* TwoSumTests.swift in Sources */,
+				A2C6C67F215884370061C2FD /* LongestSubstringWithoutRepeatingCharactersTests.swift in Sources */,
 				A29DB26D214F747E00C05950 /* AlgorithmQuestionsTests.swift in Sources */,
 				A29DB27F214F873C00C05950 /* TwoSum.swift in Sources */,
+				A2C6C67D215884010061C2FD /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
